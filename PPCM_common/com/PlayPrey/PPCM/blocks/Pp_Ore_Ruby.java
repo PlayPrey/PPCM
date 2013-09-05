@@ -11,15 +11,6 @@ import com.PlayPrey.PPCM.lib.Strings;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-/**
- * Mouse Does Mods
- * 
- * BaseBlock
- * 
- * @author Martijn
- * @license Lesser GNU Public License v3 (http://www.gnu.org/licenses/lgpl.html)
- *
- */
 
 public class Pp_Ore_Ruby extends Block {
 
@@ -28,7 +19,7 @@ public class Pp_Ore_Ruby extends Block {
 		super(id, Material.rock);
 		this.setHardness(25F);
 		this.setResistance(25F);
-		this.setCreativeTab(CreativeTabs.tabCombat);
+
 		this.setUnlocalizedName(Strings.Pp_Ore_Ruby);
 	}
 

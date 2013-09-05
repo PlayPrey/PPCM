@@ -3,6 +3,7 @@ package com.PlayPrey.PPCM;
 import net.minecraft.creativetab.CreativeTabs;
 
 import com.PlayPrey.PPCM.blocks.ModBlocks;
+import com.PlayPrey.PPCM.core.handler.LocalizationHandler;
 import com.PlayPrey.PPCM.core.proxy.CommonProxy;
 import com.PlayPrey.PPCM.lib.References;
 
@@ -27,7 +28,8 @@ public static CommonProxy proxy;
 public void preInit(FMLPreInitializationEvent event)
 {
 	ModBlocks.init();
-	final CreativeTabs tabPPCM= new tabPPCM(12, "P-P-C-M");
+	final CreativeTabs tabPPCM= new tabPPCM(12, References.MODID);
+	LocalizationHandler.init();
 	
 }
 @EventHandler
