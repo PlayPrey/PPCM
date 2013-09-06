@@ -24,6 +24,8 @@ public class ConfigurationHandler {
 
 			config.load();
 
+			//BlockIds.IronFurnaceID = config.get(config.CATEGORY_BLOCK, Strings.IronFurnaceID, BlockIds.IronFurnaceID_DEFAULT).getInt(BlockIds.IronFurnaceID_DEFAULT);
+
 			BlockIds.RUBY_ORE_ID = config.get(config.CATEGORY_BLOCK, Strings.Pp_Ore_Ruby, BlockIds.RUBY_ORE_ID_DEFAULT).getInt(BlockIds.RUBY_ORE_ID_DEFAULT);
 			//ItemIds.ITEM_ID = config.get(config.CATEGORY_ITEM, Strings.ITEMNAME, ItemIds.ITEM_ID_DEFAULT).getInt(ItemIds.ITEM_ID_DEFAULT);
 		}
