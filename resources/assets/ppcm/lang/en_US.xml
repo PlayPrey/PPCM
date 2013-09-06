@@ -3,5 +3,5 @@
 <properties version="1.0">
 	<comment>English (en_US) Localization File</comment>
 	<entry key="tile.Ruby_Ore.name">Ruby Ore</entry>
-	<entry key="item.Ruby_Ore.name">Ruby Ore</entry>
+	<entry key="tile.Blue_Rose.name">Blue Rose</entry>
 </properties>
