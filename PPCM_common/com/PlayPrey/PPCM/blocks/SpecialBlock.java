@@ -13,15 +13,15 @@ import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
 
-public class Pp_Ore_Ruby extends Block {
+public class SpecialBlock extends Block {
 
-	public Pp_Ore_Ruby(int id){
+	public SpecialBlock(int id){
 
 		super(id, Material.rock);
-		this.setHardness(25F);
-		this.setResistance(25F);
+		this.setHardness(50F);
+		this.setResistance(50F);
 		this.setCreativeTab(PPCM.tabPPCM);
-		this.setUnlocalizedName(Strings.Pp_Ore_Ruby);
+		this.setUnlocalizedName(Strings.Special_Block);
 	}
 
 	@Override

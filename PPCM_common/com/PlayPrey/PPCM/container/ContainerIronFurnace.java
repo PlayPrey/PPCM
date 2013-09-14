@@ -1,4 +1,4 @@
-package com.PlayPrey.PPCM.container;
+/** package com.PlayPrey.PPCM.container;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
@@ -46,9 +46,8 @@ public void addCraftingToCrafters(ICrafting par1ICrafting)
          par1ICrafting.sendProgressBarUpdate(this, 1, this.Iron.furnaceBurnTime);
          par1ICrafting.sendProgressBarUpdate(this, 2, this.Iron.currentItemBurnTime);
 }
-/**
-         * Looks for changes made in the container, sends them to every listener.
-         */
+
+
 public void detectAndSendChanges()
 {
          super.detectAndSendChanges();
@@ -92,9 +91,9 @@ public boolean canInteractWith(EntityPlayer par1EntityPlayer)
 {
          return this.Iron.isUseableByPlayer(par1EntityPlayer);
 }
-/**
-         * Called when a player shift-clicks on a slot. You must override this or you will crash when someone does that.
-         */
+
+
+
 public ItemStack transferStackInSlot(EntityPlayer par1EntityPlayer, int par2)
 {
          ItemStack var3 = null;
@@ -160,3 +159,5 @@ public ItemStack transferStackInSlot(EntityPlayer par1EntityPlayer, int par2)
          return var3;
 }
 }
+
+*/

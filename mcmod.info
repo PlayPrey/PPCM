@@ -1,0 +1,18 @@
+[
+{
+"modid": "PPCM",
+"name": "PlayPrey Conversion Modification",
+"description": "PlayPrey's Total Conversion Mod",
+"version": "Version",
+"url": "",
+"authorList": [
+"PlayPrey"
+],
+"credits": "PlayPrey",
+"logoFile": "assets/ppcm/logoFile.png",
+"screenshots": [],
+"dependencies": ["forge-9.10.0.789"
+],
+"mcversion": "1.6.2"
+}
+]

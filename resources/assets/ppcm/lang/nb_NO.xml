@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties version="1.0">
-	<comment>English (en_US) Localization File</comment>
+	<comment>Norsk (nb_NO) Localization File</comment>
 	<entry key="tile.Ruby_Ore.name">Rubin Stein</entry>
-	<entry key="item.Ruby_Ore.name">Rubin Stein</entry>
+	<entry key="tile.Oak_Frost_TB.name">Fryst Eik</entry>
+    <entry key="tile.Frost_Grass.name">Fryst Gress</entry>
+	<entry key="item.wheatTool_sword.name">Hvete Sverd</entry>
+	<entry key="item.wheatTool_axe.name">Hvete Øks</entry>
+	<entry key="item.wheatTool_hoe.name">Hvete Ljå</entry>
+	<entry key="item.wheatTool_pickaxe.name">Hvete Hakke</entry>
+	<entry key="item.wheatTool_shovel.name">Hvete Spade</entry>
 </properties>

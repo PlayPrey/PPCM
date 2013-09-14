@@ -1,4 +1,5 @@
-package com.PlayPrey.PPCM.Gui;
+/** package com.PlayPrey.PPCM.Gui;
+ 
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.tileentity.TileEntity;
@@ -32,3 +33,5 @@ case 0: return new GuiIronFurnace(player.inventory, (TileEntityIronFurnace) tile
 return null;
 }
 }
+
+*/

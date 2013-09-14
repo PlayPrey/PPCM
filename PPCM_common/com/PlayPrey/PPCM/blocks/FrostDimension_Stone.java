@@ -13,15 +13,16 @@ import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
 
-public class Pp_Ore_Ruby extends Block {
+public class FrostDimension_Stone extends Block {
 
-	public Pp_Ore_Ruby(int id){
+	public FrostDimension_Stone(int id){
 
 		super(id, Material.rock);
 		this.setHardness(25F);
 		this.setResistance(25F);
-		this.setCreativeTab(PPCM.tabPPCM);
-		this.setUnlocalizedName(Strings.Pp_Ore_Ruby);
+		this.setStepSound(Block.soundGrassFootstep);
+		this.setCreativeTab(PPCM.tabFROSTPPCM);
+		this.setUnlocalizedName(Strings.FROSTstoneBlock);
 	}
 
 	@Override

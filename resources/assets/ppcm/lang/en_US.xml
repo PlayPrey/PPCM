@@ -3,5 +3,16 @@
 <properties version="1.0">
 	<comment>English (en_US) Localization File</comment>
 	<entry key="tile.Ruby_Ore.name">Ruby Ore</entry>
-	<entry key="tile.Blue_Rose.name">Blue Rose</entry>
+	<entry key="tile.Oak_Frost_TB.name">Frost Oak</entry>
+	<entry key="tile.Frost_Grass.name">Frost Grass</entry>
+	<entry key="tile.Frost_Stone.name">Frost Stone</entry>
+	<entry key="tile.Frost_Cobblestone.name">Frost Cobblestone</entry>
+	<entry key="tile.Frost_Dirt.name">Frost Dirt</entry>
+	<entry key="item.wheatTool_axe.name">Wheat Axe</entry>
+	<entry key="item.wheatTool_sword.name">Wheat Sword</entry>
+	<entry key="item.wheatTool_hoe.name">Wheat Hoe</entry>
+	<entry key="item.wheatTool_pickaxe.name">Wheat Pickaxe</entry>
+	<entry key="item.wheatTool_shovel.name">Wheat Shovel</entry>
+	<entry key="item.Special_Ingot.name">Special Ingot</entry>
+	<entry key="item.Special_BrokenIngot.name">Special Broken Ingot</entry>
 </properties>
