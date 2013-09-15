@@ -37,12 +37,12 @@ import cpw.mods.fml.common.registry.LanguageRegistry;
 @NetworkMod( clientSideRequired = true, serverSideRequired = false)
 public class PPCM 
 {
-	public static BiomeGenChristmas Christmas = new BiomeGenChristmas(23);
-	public static BiomeGenFrostGlacier Glacier = new BiomeGenFrostGlacier(24);
+	
 	public static int dimensionId = 8;
 	public static Achievement Get_Dirt;
 	
-	
+	public static BiomeGenChristmas Christmas = new BiomeGenChristmas(23);
+	public static BiomeGenFrostGlacier Glacier = new BiomeGenFrostGlacier(24);
 	
 	
 	
@@ -77,21 +77,23 @@ public final static CreativeTabs tabFROSTPPCM= new tabFROSTPCMM(CreativeTabs.get
 public void preInit(FMLPreInitializationEvent event)
 {
 	ConfigurationHandler.init(new File(event.getModConfigurationDirectory().getAbsolutePath()+ File.separator + References.MODID + File.separator + References.MODID + ".cfg"));
-	ModItems.init();
-	ModBlocks.init();
-    ModLoader.addBiome(Christmas);
-    ModLoader.addBiome(Glacier);
 	
-	LocalizationHandler.init();
+    
+  
 	
-	DimensionManager.registerProviderType(PPCM.dimensionId, WorldProviderAvatash.class, false);
-	DimensionManager.registerDimension(PPCM.dimensionId, PPCM.dimensionId);
+	//LocalizationHandler.init();
+	
+	//DimensionManager.registerProviderType(PPCM.dimensionId, WorldProviderAvatash.class, false);
+	//DimensionManager.registerDimension(PPCM.dimensionId, PPCM.dimensionId);
 
 	
 }
 @EventHandler
 public void init(FMLInitializationEvent event)
 {
+	  ModItems.init();
+		ModBlocks.init();
+
 //	GameRegistry.registerTileEntity(TileEntityIronFurnace.class,"tileEntityIronFurnace");
 //	RenderingRegistry.registerBlockHandler(2105, PPCM.INSTANCE);
 //	NetworkRegistry.instance().registerGuiHandler(this, guiHandlerIronFurnace);
@@ -106,4 +108,5 @@ public void load(FMLInitializationEvent event)
 {
 
 }
+
 }
